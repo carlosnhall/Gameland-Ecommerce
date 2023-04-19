@@ -24,7 +24,7 @@ La tienda cuenta con la posibilidad de:
 
 #### Obligatorias/básicas (solicitadas por consignas del curso)
 
-<u>react 17+</u>
+<u>react</u>
 
 <u>react-dom</u>
 
