@@ -44,7 +44,9 @@ La tienda cuenta con la posibilidad de:
 
 <u>lottie-react:</u> Utilizada para incorporar animaciones para los loaders.
 
-<u>node-sass</u> Utilizada para estilar todo el proyecto.
+  <a href="https://www.w3schools.com/css/" target="_blank">
+    <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />
+  </a> <u>node-sass</u> Utilizada para estilar todo el proyecto.
 
 ### Instrucciones para su instalación
 
@@ -57,13 +59,9 @@ La tienda cuenta con la posibilidad de:
 
 https://steady-puppy-a786c5.netlify.app/
 
-  <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
-    <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />
-  </a> 
 
-  <a href="https://www.w3schools.com/css/" target="_blank">
-    <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />
-  </a> 
+
+
 
   <a href="https://www.javascript.com/" target="_blank">
     <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />
