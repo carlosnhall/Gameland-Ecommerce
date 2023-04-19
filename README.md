@@ -34,6 +34,29 @@ La tienda cuenta con la posibilidad de:
 
 <u>firebase:</u> Utilizada como base de datos para leer la lista de productos y su información, y para almacenar y leer las órdenes de compra.
 
+#### Incorporadas en adición a las pedidas en clase
+
+<u>styled-components:</u> Utilizada para estilar los botones de múltiples lugares en la página con el componente Button.
+
+<u>react-toastify:</u> Utilizada para dar una confirmación al usuario al agregar producto/s a su carrito, y para notificar el éxito o fracaso en la carga de la información proveniente del servidor de Firebase.
+
+<u>react-bootstrap-icons:</u> Utilizada para crear el logo del "cart widget" y el "trash icon" en la sección "carrito" para el botón de eliminar productos.
+
+<u>lottie-react:</u> Utilizada para incorporar animaciones para los loaders.
+
+<u>node-sass</u> Utilizada para estilar todo el proyecto.
+
+### Instrucciones para su instalación
+
+1. git clone https://github.com/carlosnhall/Gameland-Ecommerce
+2. cd Gameland-Ecommerce
+3. npm install
+4. npm start
+
+### Link al deploy de la app en Vercel:
+
+https://proyecto-final-react-js-larsson.vercel.app/
+
 
 
 
