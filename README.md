@@ -53,7 +53,7 @@ La tienda cuenta con la posibilidad de:
 3. npm install
 4. npm start
 
-### Link al deploy de la app en Vercel:
+# :eyes: Link al deploy de la app en Vercel:
 
 https://steady-puppy-a786c5.netlify.app/
 
