@@ -20,9 +20,9 @@ La tienda cuenta con la posibilidad de:
 
 ![Gameland03](https://user-images.githubusercontent.com/112905350/232955818-962f6adc-d1ab-4e8e-887f-4a5a157eb5fa.gif)
 
-### Librerías utilizadas
+# :pushpin: Librerías utilizadas
 
-#### Obligatorias/básicas (solicitadas por consignas del curso)
+# :pushpin: Obligatorias/básicas (solicitadas por consignas del curso)
 
 <u>react</u>
 
@@ -34,7 +34,7 @@ La tienda cuenta con la posibilidad de:
 
 <u>firebase:</u> Utilizada como base de datos para leer la lista de productos y su información, y para almacenar y leer las órdenes de compra.
 
-#### Incorporadas en adición a las pedidas en clase
+# :pushpin: Incorporadas en adición a las pedidas en clase
 
 <u>styled-components:</u> Utilizada para estilar los botones de múltiples lugares en la página con el componente Button.
 
