@@ -55,7 +55,8 @@ La tienda cuenta con la posibilidad de:
 
 ### Link al deploy de la app en Vercel:
 
-https://proyecto-final-react-js-larsson.vercel.app/
+https://steady-puppy-a786c5.netlify.app/
+
 
 
 
