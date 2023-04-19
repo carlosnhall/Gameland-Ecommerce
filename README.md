@@ -20,6 +20,20 @@ La tienda cuenta con la posibilidad de:
 
 ![Gameland03](https://user-images.githubusercontent.com/112905350/232955818-962f6adc-d1ab-4e8e-887f-4a5a157eb5fa.gif)
 
+### Librerías utilizadas
+
+#### Obligatorias/básicas (solicitadas por consignas del curso)
+
+<u>react 17+</u>
+
+<u>react-dom</u>
+
+<u>react-scripts</u>
+
+<u>react-router-dom:</u> Utilizada para el enrutamiento dentro del virtual DOM.
+
+<u>firebase:</u> Utilizada como base de datos para leer la lista de productos y su información, y para almacenar y leer las órdenes de compra.
+
 
 
 
