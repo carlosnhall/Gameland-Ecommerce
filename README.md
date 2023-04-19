@@ -24,23 +24,23 @@ La tienda cuenta con la posibilidad de:
 
 # :pushpin: Obligatorias/básicas (solicitadas por consignas del curso)
 
-  <a href="https://reactjs.org/" target="_blank">
+  1-<a href="https://reactjs.org/" target="_blank">
     <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />
   </a><u>react</u>
 
-  <a href="https://reactjs.org/" target="_blank">
+  2-<a href="https://reactjs.org/" target="_blank">
     <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />
   </a><u>react-dom</u>
 
-  <a href="https://reactjs.org/" target="_blank">
+  3-<a href="https://reactjs.org/" target="_blank">
     <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />
   </a><u>react-scripts</u>
 
-  <a href="https://reactjs.org/" target="_blank">
+ 4- <a href="https://reactjs.org/" target="_blank">
     <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />
   </a><u>react-router-dom:</u> Utilizada para el enrutamiento dentro del virtual DOM.
 
-<u>firebase:</u> Utilizada como base de datos para leer la lista de productos y su información, y para almacenar y leer las órdenes de compra.
+ 5-<u>firebase:</u> Utilizada como base de datos para leer la lista de productos y su información, y para almacenar y leer las órdenes de compra.
 
 # :pushpin: Incorporadas en adición a las pedidas en clase
 
