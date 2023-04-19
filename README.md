@@ -40,25 +40,25 @@ La tienda cuenta con la posibilidad de:
     <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />
   </a><u>react-router-dom:</u> Utilizada para el enrutamiento dentro del virtual DOM.
 
- 5-<u>firebase:</u> Utilizada como base de datos para leer la lista de productos y su información, y para almacenar y leer las órdenes de compra.
+ 5-<a href="https://firebase.google.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/firebase.png" alt="Firebase" height="50" /></a> <u>firebase:</u> Utilizada como base de datos para leer la lista de productos y su información, y para almacenar y leer las órdenes de compra.
 
 # :pushpin: Incorporadas en adición a las pedidas en clase
 
-<u>styled-components:</u> Utilizada para estilar los botones de múltiples lugares en la página con el componente Button.
+1-<a href="https://styled-components.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/styled-components.png" alt="Styled Components" height="50" /></a> <u>styled-components:</u> Utilizada para estilar los botones de múltiples lugares en la página con el componente Button.
 
-  <a href="https://reactjs.org/" target="_blank">
+  2-<a href="https://reactjs.org/" target="_blank">
     <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />
   </a><u>react-toastify:</u> Utilizada para dar una confirmación al usuario al agregar producto/s a su carrito, y para notificar el éxito o fracaso en la carga de la información proveniente del servidor de Firebase.
 
-  <a href="https://reactjs.org/" target="_blank">
+  3-<a href="https://reactjs.org/" target="_blank">
     <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />
   </a><u>react-bootstrap-icons:</u> Utilizada para crear el logo del "cart widget" y el "trash icon" en la sección "carrito" para el botón de eliminar productos.
 
-  <a href="https://reactjs.org/" target="_blank">
+  4-<a href="https://reactjs.org/" target="_blank">
     <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />
   </a><u>lottie-react:</u> Utilizada para incorporar animaciones para los loaders.
 
-  <a href="https://www.w3schools.com/css/" target="_blank">
+  5-<a href="https://www.w3schools.com/css/" target="_blank">
     <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />
   </a> <u>node-sass</u> Utilizada para estilar todo el proyecto.
 
