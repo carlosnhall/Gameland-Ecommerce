@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: regular;
+    #root{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        header{
+            color: #444;
+            width: 100vw;
+            height: 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffcc99;
+            box-shadow: 0px 1px 3px #454442;
+            .brand{
+                margin-left: 4rem;
+                font-size: 2rem;
+                font-weight: regular;
+                a{
+                    color: #9999ff;
+                    text-decoration: none;
+                }
+            }
+            nav{
+                display: flex;
+                align-items: center;
+                ul{
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    margin: 1rem 0;
+                    li{
+                        display: flex;
+                        align-items: center;
+                        .nav__link{
+                            color: #444;
+                            text-decoration: none;
+                            margin-right: 3rem;
+                            padding: 0.2rem;
+                            transition: all 0.2s;
+                            &.active{
+                                border-bottom: 4px solid #09f;
+                            }
+                            &:hover{
+                                border-bottom: 4px solid #09f;
+                            }
+                            &.cartWidgetContainer{
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+                                .cartWidget{
+                                    width: 20px;
+                                }
+                                .cartCounter{
+                                    margin-left: 5px;
+                                    text-align: center;
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .mainContainer{
+            flex-grow: 1;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+            .loader{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .greeting{
+                color: #444;
+                font-weight: 300;
+                &.error{
+                    color: red
+                }
+            }
+            .landingImage{
+                width: 100%;
+                height: 15rem;
+                margin: 2rem auto;
+                object-fit: cover;
+                box-shadow: 0 0 3px;
+            }
+            .itemList{
+                width: 80%;
+                margin: 1rem;
+                padding: 1rem;
+                background-color: #fff;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, 14rem);
+                justify-content: center;
+                grid-gap: 1rem;
+                border-radius: 3px;
+                box-shadow: 0 0 3px;
+                .item{
+                    margin: 1rem;
+                    background-color: rgb(136, 185, 179);
+                    border-radius: 3px;
+                    box-shadow: 0 0 2px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    height: 21rem;
+                    width: 12rem;
+                    img{
+                        margin-top: 1rem;
+                        width: 10rem;
+                        height: 10rem;
+                        object-fit: contain;
+                        border-radius: 3px;
+                        box-shadow: 0 0 2px;
+                        transition: all .2s;
+                        &:hover{
+                            transform: scale(1.01);
+                        }
+                    }
+                    .title{
+                        margin: 0.5rem auto;
+                        flex-grow: 1;
+                        font-weight: bold;
+                    }
+                    .price{
+                        flex-grow: 1;
+                    }
+                    .goToDetail{
+                        margin-top: .5rem;
+                        margin-bottom: .2rem;
+                        text-decoration: none;
+                        color: #444;
+                        font-size: small;
+                        &:hover{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            .formContainer{
+                .formGroup{
+                    margin: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .formLabel{
+                        margin: 1rem;
+                        font-weight: bold;
+                    }
+                    .formInput{
+                        margin: 0.5rem;
+                        width: 20rem;
+                        height: 2rem;
+                        border-radius: 3px;
+                        border: 1px solid #444;
+                        padding: 0.5rem;
+                        font-size: small;
+                        transition: all .2s;
+                        &:focus{
+                            border: 1px solid #09f;
+                        }
+                    }
+                    .orderSubmit{
+                        margin: 1rem 0;
+                        height: 48px;
+                    }
+                    .trackButtonsContainer{
+                        display: flex;
+                        justify-content: center;
+                        margin: 1rem 0;
+                    }
+                }
+                .orderInput{
+                    width: 30rem;
+                }
+            }
+            .checkoutInfo{
+                margin: 1rem 0;
+            }
+            .orderInfo{
+                margin: 1rem 0;
+            }
+            .trackedOrder{
+                width: 100%;
+                flex-grow: 1;
+                margin: 2rem 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .trackerMessage{
+                    margin: 2rem 0;
+                    font-weight: bold;
+                    color: rgb(0, 184, 0);
+                }
+                .orderTable{
+                    text-align: center;
+                    width: 80%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .orderHeaders{
+                        background-color: lightblue;
+                        border-radius: 3px;
+                        box-shadow: 0 0 2px;
+                        font-weight: 700;
+                    }
+                    td{
+                        width: 8rem;
+                    }
+                    .orderItem{
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        margin: 1rem 0;
+                        .orderImage{
+                            width: 50px;
+                            height: 50px;
+                            object-fit: contain;
+                        }
+                        p{
+                            margin: 1rem 1rem;
+                        }
+                    }
+                }
+                .trackTotal{
+                    margin: 1rem 0;
+                    font-weight: bold;
+                }
+            }
+        }
+        .itemDetail{
+            width: 60%;
+            margin: 1rem;
+            padding: 1rem;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-around;
+            border-radius: 3px;
+            box-shadow: 0 0 3px;
+            img{
+                margin: 1rem;
+                width: 40%;
+                object-fit: contain;
+                border-radius: 3px;
+                box-shadow: 0 0 2px;
+            }
+            .detail{
+                margin: 1rem;
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                .detail__title, .detail__description, .detail__origin, .detail__price{
+                    flex-grow: 1;
+                }
+                .detail__counter{
+                    height: 5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60%;
+                    background-color: rgb(136, 185, 179);
+                    border-radius: 3px;
+                    box-shadow: 0 0 2px;
+                }
+                .detail__stock{
+                    margin-top: 1rem;
+                    color: grey;
+                    font-style: italic;
+                    font-size: small;
+                }
+            }
+        }
+        .cart{
+            flex-grow: 1;
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            span{
+                margin-bottom: 1rem;
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+            .cartTable{
+                text-align: center;
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .cartHeaders{
+                    background-color: lightblue;
+                    border-radius: 3px;
+                    box-shadow: 0 0 2px;
+                    font-weight: 700;
+                }
+                td{
+                    width: 8rem;
+                }
+                .cartItem{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin: 1rem 0;
+                    .cartImage{
+                        width: 50px;
+                        height: 50px;
+                        object-fit: contain;
+                    }
+                    p{
+                        margin: 1rem 1rem;
+                    }
+                    .trash{
+                        transition: all .1s;
+                        &:hover{
+                            transform: scale(1.1);
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .cartButtons{
+                margin: 2rem auto;
+                width: 30%;
+                display: flex;
+                justify-content: space-around;
+                .cartButton{
+                    width: 10rem;
+                }
+            }
+            .linkToStore{
+                margin-top: 2rem;
+            }
+        }
+
+        footer{
+            color: #333300;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffcc99;
+            img{
+                width: 60px;
+                margin: 0.5rem 0;
+                filter:invert(100%)
+            }
+        }
+    }
+}
+
+/* Estilos compartidos por los componentes ItemCount (utilizados tanto en ItemList como en ItemDetail*/
+
+.itemCount{
+    width: 10rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    div{
+        margin: 0.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            width: 2rem;
+            text-align: center;
+        }
+    }
+}
